@@ -1,11 +1,11 @@
 const express=require('express');
 
-const {getIP}=require('../handler/getIP')
+const {getMeIP}=require('../handler/getIP')
 
 
 const getIPRouter=express.Router()
 
-getIPRouter.post('/getmeip',creategetIP);
+getIPRouter.post('/getmeip',getMeIP);
 
 
 

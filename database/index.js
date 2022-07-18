@@ -9,8 +9,6 @@ async function connectDatabase(){
 
     } catch (error) {
         console.log('error',error)
-        // throw error;
-
     }
 }
 

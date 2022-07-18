@@ -1,12 +1,15 @@
 const getIPModel=require('../database/getIP')
 async function getMeIP(req,res,next){
+    console.log('hello')
     const {website_name:webName}=req.body;
-    let website_name=new getIPModel(webName);
+    console.log('abc')
+    // let website_name=new getIPModel(webName);
 
-    await website_name.save();
-    return res.send({
-        data:website_name
-    })
+    // await website_name.save();
+    // return res.send({
+    //     data:website_name
+    // })
+    return;
 }
 
 
